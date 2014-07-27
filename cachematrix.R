@@ -1,5 +1,9 @@
 ##This Function takes in the value of an invertible Matrix, stores it and then returns the inverse of the matrix
+
+
+
 ## takes in the value of the matrix
+
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -40,7 +44,11 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 install.packages(MASS)## Installing the package of Mass which has the function for getting the inverse of a matrix
+
+
 ## The following function solves and returns the inverse of the special matrix "makeCacheMatrix" 
+
+
 ## created in the previous function
 
 
